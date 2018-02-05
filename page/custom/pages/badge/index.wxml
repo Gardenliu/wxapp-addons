@@ -1,0 +1,49 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'badge'}}"/>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">
+        <text>badge无上标</text>
+      </view>
+      <view class="page-section-spacing">
+        <badge>
+          <view class="demo__icon"></view>
+        </badge>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="page-section-title">
+        <text>带上标,可设置最大值</text>
+      </view>
+      <view class="page-section-spacing">
+
+        <badge num="0" class="demo-li">
+          <view class="demo__icon"></view>
+        </badge>
+
+        <badge num="19" max="20"  class="demo-li">
+          <view class="demo__icon"></view>
+        </badge>
+
+        <badge num="99999999999999"  class="demo-li">
+          <view class="demo__icon"></view>
+        </badge>
+
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="page-section-title">
+        <text>参数</text>
+      </view>
+      <view class="page-section-spacing">
+
+      </view>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>

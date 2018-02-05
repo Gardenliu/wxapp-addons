@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Cell 单元格",
+  "usingComponents": {
+    "cell": "/vendor/components/cell/index",
+    "xbutton": "/vendor/components/xbutton/index",
+    "stepper": "/vendor/components/stepper/index"
+  }
+}

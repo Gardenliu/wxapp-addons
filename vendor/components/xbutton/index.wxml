@@ -1,0 +1,3 @@
+<button class="gd-btn {{sizeClass}} {{typeClass}} {{plain ? 'gd-btn--plain' : ''}} {{loading ? 'gd-btn--loading':''}} {{disabled ? 'gd-btn--disabled':''}}">
+    <slot></slot>
+</button>

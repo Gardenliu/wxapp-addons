@@ -1,0 +1,380 @@
+@font-face {
+  font-family: gdui-weapp-icon;
+  src: url(https://b.yzcdn.cn/zanui-weapp/zanui-weapp-icon-4381aded05.eot);
+  src: url(https://b.yzcdn.cn/zanui-weapp/zanui-weapp-icon-4381aded05.eot?#iefix) format('embedded-opentype'), url(https://b.yzcdn.cn/zanui-weapp/zanui-weapp-icon-4381aded05.woff2) format('woff2'), url(https://b.yzcdn.cn/zanui-weapp/zanui-weapp-icon-4381aded05.woff) format('woff'), url(https://b.yzcdn.cn/zanui-weapp/zanui-weapp-icon-4381aded05.ttf) format('truetype')
+}
+
+.gd-icon {
+  display: inline-block
+}
+
+.gd-icon::before {
+  font-family: gdui-weapp-icon !important;
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased
+}
+
+.gd-icon-qr-invalid:before {
+  content: '\e800'
+}
+
+.gd-icon-qr:before {
+  content: '\e801'
+}
+
+.gd-icon-exchange:before {
+  content: '\e802'
+}
+
+.gd-icon-close:before {
+  content: '\e803'
+}
+
+.gd-icon-location:before {
+  content: '\e804'
+}
+
+.gd-icon-upgrade:before {
+  content: '\e805'
+}
+
+.gd-icon-check:before {
+  content: '\e806'
+}
+
+.gd-icon-checked:before {
+  content: '\e807'
+}
+
+.gd-icon-like-o:before {
+  content: '\e808'
+}
+
+.gd-icon-like:before {
+  content: '\e809'
+}
+
+.gd-icon-chat:before {
+  content: '\e80a'
+}
+
+.gd-icon-shop:before {
+  content: '\e80b'
+}
+
+.gd-icon-photograph:before {
+  content: '\e80c'
+}
+
+.gd-icon-add:before {
+  content: '\e80d'
+}
+
+.gd-icon-add2:before {
+  content: '\e80e'
+}
+
+.gd-icon-photo:before {
+  content: '\e80f'
+}
+
+.gd-icon-logistics:before {
+  content: '\e810'
+}
+
+.gd-icon-edit:before {
+  content: '\e811'
+}
+
+.gd-icon-passed:before {
+  content: '\e812'
+}
+
+.gd-icon-cart:before {
+  content: '\e813'
+}
+
+.gd-icon-shopping-cart:before {
+  content: '\e814'
+}
+
+.gd-icon-arrow:before {
+  content: '\e815'
+}
+
+.gd-icon-gift:before {
+  content: '\e816'
+}
+
+.gd-icon-search:before {
+  content: '\e817'
+}
+
+.gd-icon-clear:before {
+  content: '\e818'
+}
+
+.gd-icon-success:before {
+  content: '\e819'
+}
+
+.gd-icon-fail:before {
+  content: '\e81a'
+}
+
+.gd-icon-contact:before {
+  content: '\e81b'
+}
+
+.gd-icon-wechat:before {
+  content: '\e81c'
+}
+
+.gd-icon-alipay:before {
+  content: '\e81d'
+}
+
+.gd-icon-password-view:before {
+  content: '\e81e'
+}
+
+.gd-icon-password-not-view:before {
+  content: '\e81f'
+}
+
+.gd-icon-wap-nav:before {
+  content: '\e820'
+}
+
+.gd-icon-wap-home:before {
+  content: '\e821'
+}
+
+.gd-icon-ecard-pay:before {
+  content: '\e822'
+}
+
+.gd-icon-balance-pay:before {
+  content: '\e823'
+}
+
+.gd-icon-peer-pay:before {
+  content: '\e824'
+}
+
+.gd-icon-credit-pay:before {
+  content: '\e825'
+}
+
+.gd-icon-debit-pay:before {
+  content: '\e826'
+}
+
+.gd-icon-other-pay:before {
+  content: '\e827'
+}
+
+.gd-icon-browsing-history:before {
+  content: '\e828'
+}
+
+.gd-icon-goods-collect:before {
+  content: '\e829'
+}
+
+.gd-icon-shop-collect:before {
+  content: '\e82a'
+}
+
+.gd-icon-receive-gift:before {
+  content: '\e82b'
+}
+
+.gd-icon-send-gift:before {
+  content: '\e82c'
+}
+
+.gd-icon-setting:before {
+  content: '\e82d'
+}
+
+.gd-icon-points:before {
+  content: '\e82e'
+}
+
+.gd-icon-coupon:before {
+  content: '\e82f'
+}
+
+.gd-icon-free-postage:before {
+  content: '\e830'
+}
+
+.gd-icon-discount:before {
+  content: '\e831'
+}
+
+.gd-icon-birthday-privilege:before {
+  content: '\e832'
+}
+
+.gd-icon-member-day-privilege:before {
+  content: '\e833'
+}
+
+.gd-icon-balance-details:before {
+  content: '\e834'
+}
+
+.gd-icon-cash-back-record:before {
+  content: '\e835'
+}
+
+.gd-icon-points-mall:before {
+  content: '\e836'
+}
+
+.gd-icon-exchange-record:before {
+  content: '\e837'
+}
+
+.gd-icon-pending-payment:before {
+  content: '\e838'
+}
+
+.gd-icon-pending-orders:before {
+  content: '\e839'
+}
+
+.gd-icon-pending-deliver:before {
+  content: '\e83a'
+}
+
+.gd-icon-pending-evaluate:before {
+  content: '\e83b'
+}
+
+.gd-icon-gift-card-pay:before {
+  content: '\e83c'
+}
+
+.gd-icon-cash-on-deliver:before {
+  content: '\e83d'
+}
+
+.gd-icon-underway:before {
+  content: '\e83e'
+}
+
+.gd-icon-point-gift:before {
+  content: '\e83f'
+}
+
+.gd-icon-after-sale:before {
+  content: '\e840'
+}
+
+.gd-icon-edit-data:before {
+  content: '\e841'
+}
+
+.gd-icon-question:before {
+  content: '\e842'
+}
+
+.gd-icon-delete:before {
+  content: '\e843'
+}
+
+.gd-icon-records:before {
+  content: '\e844'
+}
+
+.gd-icon-description:before {
+  content: '\e845'
+}
+
+.gd-icon-card:before {
+  content: '\e846'
+}
+
+.gd-icon-gift-card:before {
+  content: '\e847'
+}
+
+.gd-icon-clock:before {
+  content: '\e848'
+}
+
+.gd-icon-gold-coin:before {
+  content: '\e849'
+}
+
+.gd-icon-completed:before {
+  content: '\e84a'
+}
+
+.gd-icon-value-card:before {
+  content: '\e84b'
+}
+
+.gd-icon-certificate:before {
+  content: '\e84c'
+}
+
+.gd-icon-tosend:before {
+  content: '\e84d'
+}
+
+.gd-icon-sign:before {
+  content: '\e84e'
+}
+
+.gd-icon-home:before {
+  content: '\e84f'
+}
+
+.gd-icon-phone:before {
+  content: '\e850'
+}
+
+.gd-icon-add-o:before {
+  content: '\e851'
+}
+
+.gd-icon-play:before {
+  content: '\e852'
+}
+
+.gd-icon-pause:before {
+  content: '\e853'
+}
+
+.gd-icon-stop:before {
+  content: '\e854'
+}
+
+.gd-icon-hot:before {
+  content: '\e855'
+}
+
+.gd-icon-new:before {
+  content: '\e856'
+}
+
+.gd-icon-new-arrival:before {
+  content: '\e857'
+}
+
+.gd-icon-hot-sale:before {
+  content: '\e858'
+}

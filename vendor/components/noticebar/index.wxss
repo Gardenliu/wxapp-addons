@@ -1,0 +1,12 @@
+.noticebar-container {
+  height: 80rpx;
+}
+
+.noticebar-item {
+  font-size: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-indent: 1em;
+  line-height: 80rpx;
+}

@@ -1,0 +1,12 @@
+:host {
+  color: yellow;
+  background: #0BB20C;
+}
+.wraper{
+  background: #0BB20C;
+  width: 100%;
+  overflow: hidden;
+}
+.ul{
+  background: #576B95;
+}

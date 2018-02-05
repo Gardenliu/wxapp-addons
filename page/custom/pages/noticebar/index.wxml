@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="gd-panel">
+    <noticebar list="{{list}}"></noticebar>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "xButton 按钮组件",
+  "usingComponents": {
+    "xbutton": "/vendor/components/xbutton/index"
+  }
+}

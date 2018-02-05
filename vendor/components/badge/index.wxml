@@ -1,0 +1,4 @@
+<view class="gd-badge">
+  <view wx:if="{{num !== null}}" class="gd-badge__count">{{showNum}}</view>
+  <slot></slot>
+</view>

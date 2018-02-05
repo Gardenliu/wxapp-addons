@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "steps 步骤组件",
+  "usingComponents": {
+    "steps": "/vendor/components/steps/index"
+  }
+}

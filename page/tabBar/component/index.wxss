@@ -1,0 +1,6 @@
+@import "../../common/index.wxss";
+.wraper{
+  background: #0BB20C;
+  width: 100%;
+  overflow: hidden;
+}

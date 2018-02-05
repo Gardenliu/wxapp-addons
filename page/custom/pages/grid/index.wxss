@@ -1,0 +1,4 @@
+@import "/vendor/components/common/helper.wxss";
+.doc-col {
+  line-height: 30px; text-align: center; background-color: #39a9ed; font-size: 12px; color: #fff;
+}

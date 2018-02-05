@@ -1,0 +1,8 @@
+<view class="wraper">
+  <slot name="header"></slot>
+  <view class="ul" bindtap="customMethod">
+    <view class="li" wx:for="{{list}}" wx:key="id">{{item.name}}</view>
+  </view>
+  <button bindtap="submits">submit</button>
+  <slot name="footer"></slot>
+</view>

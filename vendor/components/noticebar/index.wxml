@@ -1,0 +1,9 @@
+<swiper class="noticebar-container" vertical="{{vertical}}" autoplay="true" circular="true" interval="{{interval}}">
+  <block wx:for="{{list}}">
+    <navigator url="{{item.url}}" open-type="navigate">
+      <swiper-item>
+        <view class="noticebar-item">{{item.title}}</view>
+      </swiper-item>
+    </navigator>
+  </block>
+</swiper>

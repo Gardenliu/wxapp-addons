@@ -1,0 +1,6 @@
+<view class="main">
+  <view class="gd-panel">
+    <capsule cap="1折" body="限时折扣"></capsule>
+    <capsule cap="2折" body="限时折扣" color="#38f"></capsule>
+  </view>
+</view>

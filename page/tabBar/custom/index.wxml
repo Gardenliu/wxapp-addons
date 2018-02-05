@@ -1,0 +1,18 @@
+<view class="index">
+  <view class="index-hd">
+    <image class="index-logo" src="../../common/resources/kindComp/logo.png"></image>
+  </view>
+  <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+    <view class="gd-panel">
+      <cell>
+        <view slot="header">
+          <image class="list-img" src="../../common/resources/kindComp/{{item.id}}.png"></image>
+          <text>{{item.name}}</text>
+        </view>
+      </cell>
+      <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:key="*item">
+        <cell title="{{page}}" is-link link="../../custom/pages/{{page}}/index"></cell>
+      </block>
+    </view>
+  </block>
+</view>

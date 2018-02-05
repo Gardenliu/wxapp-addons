@@ -1,0 +1,13 @@
+@import "../../common/index.wxss";
+.wraper{
+  background: #0BB20C;
+  width: 100%;
+  overflow: hidden;
+}
+.list-img{
+  width: 1.5em;
+  height: 1.5em;
+  padding-right: 10rpx;
+  display: inline-block;
+  vertical-align: middle;
+}

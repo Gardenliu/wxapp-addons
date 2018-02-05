@@ -1,0 +1,41 @@
+<view class="container">
+  <view class="gd-panel" style="padding: 15px">
+    <xbutton>确认支付</xbutton>
+    <xbutton type="primary">确认支付</xbutton>
+    <xbutton type="danger">确认支付</xbutton>
+    <xbutton type="warn">确认支付</xbutton>
+  </view>
+  <view class="gd-panel" style="padding: 15px 0">
+    <xbutton size="large">确认支付</xbutton>
+    <xbutton type="primary" size="large">支付</xbutton>
+    <xbutton type="danger" size="large">确认支付</xbutton>
+    <xbutton type="warn" size="large">确认支付</xbutton>
+  </view>
+  <view class="gd-panel" style="padding: 15px 0">
+    <xbutton size="small">确认支付</xbutton>
+    <xbutton type="primary" size="small">确认支付</xbutton>
+    <xbutton type="danger" size="small">确认支付</xbutton>
+    <xbutton type="warn" size="small">确认支付</xbutton>
+  </view>
+  <view class="gd-panel" style="padding: 15px 0">
+    <xbutton size="mini">确认支付</xbutton>
+    <xbutton type="primary" size="mini">确认支付</xbutton>
+    <xbutton type="danger" size="mini">确认支付</xbutton>
+    <xbutton type="warn" size="mini">确认支付</xbutton>
+  </view>
+  <view class="gd-panel" style="padding: 15px">
+    <xbutton plain>确认支付</xbutton>
+    <xbutton type="primary" plain>确认支付</xbutton>
+    <xbutton type="danger" plain>确认支付</xbutton>
+    <xbutton type="warn" plain>确认支付</xbutton>
+  </view>
+  <view class="gd-panel" style="padding: 15px 0">
+    <xbutton loading>确认支付</xbutton>
+    <xbutton type="primary" loading>确认支付</xbutton>
+    <xbutton type="danger" loading>确认支付</xbutton>
+    <xbutton type="warn" loading>确认支付</xbutton>
+  </view>
+  <view class="gd-panel" style="padding: 15px">
+    <xbutton type="primary" disabled>确认支付</xbutton>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="gd-panel">
+    <stepper min="1" max="10" value="{{value}}" step="2" bindchange="changeAction"></stepper>
+  </view>
+</view>

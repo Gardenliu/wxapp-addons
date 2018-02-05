@@ -1,0 +1,3 @@
+<view class="gd-col gd-col-{{span}} gd-col-offset-{{offset}} {{colClass}}" style="{{colStyle}}">
+  <slot></slot>
+</view>

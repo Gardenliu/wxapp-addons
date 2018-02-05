@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="gd-panel" style="padding: 15px">
+    <steps list="{{steps}}" is-desc curent="7" field-title="title" field-desc="desc"></steps>
+  </view>
+  <view class="gd-panel" style="padding: 15px">
+    <steps list="{{steps}}" is-desc type="vertical" curent="7" field-title="title" field-desc="desc"></steps>
+  </view>
+</view>

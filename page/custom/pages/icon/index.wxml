@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="gd-panel">
+    <view wx:for="{{ icons }}" wx:for-item="icon" wx:key="*icon" class="icon-wrap">
+      <icon type="{{ icon }}" size="24" color="#ff4343"></icon>
+      <view class="icon-classname">{{ icon }}</view>
+    </view>
+  </view>
+</view>

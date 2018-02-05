@@ -1,0 +1,107 @@
+.gd-cell {
+  position: relative;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  line-height: 1.4;
+  font-size: 14px
+}
+
+.gd-cell::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid #e5e5e5;
+  border-bottom-width: 1px;
+  left: 15px;
+  right: 0
+}
+
+.gd-cell__icon {
+  margin-right: 5px
+}
+
+.gd-cell__bd {
+  flex: 1
+}
+
+.gd-cell__text {
+  line-height: 24px;
+  font-size: 14px
+}
+
+.gd-cell__desc {
+  line-height: 1.2;
+  font-size: 12px;
+  color: #666
+}
+
+.gd-cell__ft {
+  position: relative;
+  text-align: right;
+  color: #666
+}
+
+.gd-cell__no-pading {
+  padding: 0
+}
+
+.gd-cell__no-pading .gd-cell__bd_padding {
+  padding: 12px 0 12px 15px
+}
+
+.gd-cell__no-pading .gd-cell__bd_padding .gd-form__input {
+  height: 26px
+}
+
+.gd-cell__no-pading .gd-cell__ft_padding {
+  padding: 12px 15px 12px 0
+}
+
+.gd-cell--access .gd-cell__ft {
+  padding-right: 13px
+}
+
+.gd-cell--access .gd-cell__ft::after {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  content: " ";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border-width: 2px 2px 0 0;
+  border-color: #c8c8c8;
+  border-style: solid;
+  transform: translateY(-50%) matrix(.71, .71, -.71, .71, 0, 0)
+}
+
+.gd-cell--switch {
+  padding-top: 6px;
+  padding-bottom: 6px
+}
+.gd-icon{
+  padding-right: 8rpx;
+}
+
+.gd-field__title {
+  color: #333;
+  max-width: 65px;
+  padding-right: 10px
+}
+
+.gd-field__input {
+  flex: 1;
+  line-height: 1.6;
+  padding: 4px 0;
+  min-height: 22px;
+  height: auto;
+  font-size: 14px
+}

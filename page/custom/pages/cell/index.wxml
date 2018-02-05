@@ -1,0 +1,35 @@
+<view class="main">
+
+  <view class="gd-panel">
+    <cell title="单行列表"></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="单行列表" footer="尾部信息"></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="单行列表" desc="附加描述" footer="详细信息"></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell icon="{{ {type:'chat',color:'#f00'} }}" title="带图标的列表" is-link></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="单行列表" is-link></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="开关" is-switch>
+      <switch checked slot="footer"/>
+    </cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="多行列表" is-link></cell>
+    <cell title="多行列表" is-link></cell>
+    <cell title="多行列表" is-link></cell>
+  </view>
+
+</view>

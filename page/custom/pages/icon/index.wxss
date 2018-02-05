@@ -1,0 +1,15 @@
+.icon-wrap {
+    width: 33.33333%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+.icon-classname {
+    color: #999;
+    font-size: 10px;
+}
+.gd-icon {
+    font-size: 24px;
+    margin: 20px;
+}

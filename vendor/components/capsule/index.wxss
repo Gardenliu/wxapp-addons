@@ -1,0 +1,41 @@
+.gd-capsule {
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: 19px;
+  transform: scale(.83)
+}
+
+.gd-capsule__left, .gd-capsule__right {
+  display: inline-block;
+  line-height: 17px;
+  height: 19px;
+  vertical-align: middle;
+  box-sizing: border-box
+}
+
+.gd-capsule__left {
+  padding: 0 2px;
+  color: #fff;
+  background: #999;
+  border-radius: 2px 0 0 2px;
+  border: 1rpx solid #999
+}
+
+.gd-capsule__right {
+  padding: 0 5px;
+  color: #999;
+  border-radius: 0 2px 2px 0;
+  border: 1rpx solid #999
+}
+
+.gd-capsule--danger .gd-capsule__left {
+  color: #fff;
+  background: #f24544;
+  border-color: #f24544
+}
+
+.gd-capsule--danger .gd-capsule__right {
+  color: #f24544;
+  border-color: #f24544
+}

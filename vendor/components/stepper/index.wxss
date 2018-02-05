@@ -1,0 +1,55 @@
+.gd-stepper {
+  color: #666
+}
+
+.gd-stepper view {
+  display: inline-block;
+  line-height: 20px;
+  padding: 5px 0;
+  text-align: center;
+  min-width: 30px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 22px;
+  border: 1rpx solid #999;
+  color: #e33;
+}
+
+.gd-stepper .gd-stepper__minus {
+  border-right: none;
+  border-radius: 2px 0 0 2px
+}
+
+.gd-stepper .gd-stepper__text {
+  border: 1rpx solid #999;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  height: 30px;
+  width: 40px;
+  min-height: auto;
+  font-size: 12px;
+  line-height: 30px
+}
+
+.gd-stepper .gd-stepper__plus {
+  border-left: none;
+  border-radius: 0 2px 2px 0
+}
+
+.gd-stepper .gd-stepper--disabled {
+  background: #f8f8f8;
+  color: #bbb;
+  border-color: #e8e8e8
+}
+
+.gd-stepper--small view {
+  min-width: 26px;
+  line-height: 16px
+}
+
+.gd-stepper--small .gd-stepper__text {
+  width: 26px;
+  line-height: 26px;
+  height: 26px
+}

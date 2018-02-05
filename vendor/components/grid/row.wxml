@@ -1,0 +1,3 @@
+<view class="gd-row" style="{{styles}}">
+  <slot></slot>
+</view>

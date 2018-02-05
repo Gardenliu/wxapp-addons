@@ -1,0 +1,13 @@
+<view class="gd-cell {{isLink?'gd-cell--access':''}}  {{(isSwitch || isField)?'gd-cell--switch':''}}" catchtap="linkAction">
+  <icon class="gd-icon" wx:if="{{icon.type}}" type="{{icon.type}}" color="{{icon.color}}" size="16"></icon>
+  <view class="gd-cell__bd {{ isField?'gd-field__title':''}}">
+    {{(desc && title)?'':(title || desc)}}
+    <slot name="header" wx:if="{{!title && !desc}}"></slot>
+    <block wx:if="{{desc && title}}">
+      <view class="gd-cell__text">{{title}}</view>
+      <view class="gd-cell__desc">{{desc}}</view>
+    </block>
+  </view>
+  <view class="{{ isField?'gd-field__input':''}}"><slot name = "footer" wx:if="{{!footer}}"></slot></view>
+  <view class="gd-cell__ft">{{footer}}</view>
+</view>

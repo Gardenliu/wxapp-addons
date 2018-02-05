@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "capsule 胶囊",
+  "usingComponents": {
+    "capsule": "/vendor/components/capsule/index"
+  }
+}

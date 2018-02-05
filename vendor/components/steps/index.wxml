@@ -1,0 +1,10 @@
+<view class="gd-steps gd-steps--{{ type == 'vertical' ? 'vsteps' : 'steps' }} gd-steps--{{ steps.length }}">
+  <view wx:for="{{ steps }}" wx:for-item="step" wx:key="unique" wx:for-index="index" class="gd-steps__step {{ isDesc ? 'gd-steps__step--db-title' : '' }} {{ index == 0 ? 'gd-steps__step--first-child' : '' }} {{ index == steps.length - 1 ? 'gd-steps__step--last-child' : '' }} {{ step.done ? 'gd-steps__step--done' : '' }} {{ step.current ? 'gd-steps__step--cur' : '' }}">
+    <view class="gd-steps__title">{{ step.title }}</view>
+    <view wx:if="{{ isDesc && step.desc }}" class="gd-steps__title gd-steps__title--desc">{{ step.desc }}</view>
+    <view class="gd-steps__icons">
+      <view class="gd-steps__circle"></view>
+    </view>
+    <view class="gd-steps__line"></view>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "stepper 数字步进",
+  "usingComponents": {
+    "stepper": "/vendor/components/stepper/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "button",
+    "usingComponents": {
+        "component-mybtn": "/page/common/components/test/test"
+    }
+}

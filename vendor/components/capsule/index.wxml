@@ -1,0 +1,10 @@
+<view class="gd-capsule gd-capsule--{{type}}">
+  <block wx:if="{{color}}">
+    <view class="gd-capsule__left" style="background: {{ color }}; border-color: {{ color }}">{{ cap }}</view>
+    <view class="gd-capsule__right" style="color: {{ color }}; border-color: {{ color }}">{{ body }}</view>
+  </block>
+  <block wx:else>
+    <view class="gd-capsule__left">{{ cap }}</view>
+    <view class="gd-capsule__right">{{ body }}</view>
+  </block>
+</view>

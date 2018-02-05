@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "grid 栅栏",
+  "usingComponents": {
+    "row": "/vendor/components/grid/row",
+    "col": "/vendor/components/grid/col"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Noticebar 通告栏",
+  "usingComponents": {
+    "noticebar": "/vendor/components/noticebar/index"
+  }
+}

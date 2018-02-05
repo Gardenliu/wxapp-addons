@@ -1,0 +1,19 @@
+<view class="gd-stepper {{ size === 'small' ? 'gd-stepper--small' : '' }}">
+  <view
+          class="gd-stepper__minus {{ inputValue <= min ? 'gd-stepper--disabled' : '' }}"
+          data-type = 'minus'
+          bindtap="_handleStepperAction"
+  >-</view>
+  <input
+          class="gd-stepper__text {{ min >= max ? 'gd-stepper--disabled' : '' }}"
+          type="number"
+          value="{{ inputValue }}"
+          disabled="{{ min >= max }}"
+          bindblur="_handleStepperInput"
+  ></input>
+  <view
+          class="gd-stepper__plus {{ (inputValue >= max || min >= max )? 'gd-stepper--disabled' : '' }}"
+          data-type = 'plus'
+          bindtap="_handleStepperAction"
+  >+</view>
+</view>

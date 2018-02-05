@@ -1,0 +1,44 @@
+<view class="main">
+
+  <view class="gd-panel">
+    <cell title="收货人"  is-field>
+      <stepper min="1" max="10" value="1" step="2" size="small" slot="footer"></stepper>
+    </cell>
+    <cell title="联系电话"  is-field>
+      <input placeholder="联系电话" slot="footer"/>
+    </cell>
+    <cell title="收货地址" is-field>
+      <input placeholder="收货地址" slot="footer"/>
+    </cell>
+    <xbutton type="primary">确认支付</xbutton>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="单行列表" footer="尾部信息"></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="单行列表" desc="附加描述" footer="详细信息"></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell icon="{{ {type:'chat',color:'#f00'} }}" title="带图标的列表" is-link></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="单行列表" is-link></cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="开关" is-switch>
+      <switch checked slot="footer"/>
+    </cell>
+  </view>
+
+  <view class="gd-panel">
+    <cell title="多行列表" is-link></cell>
+    <cell title="多行列表" is-link></cell>
+    <cell title="多行列表" is-link></cell>
+  </view>
+
+</view>
