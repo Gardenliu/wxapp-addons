@@ -1,0 +1,27 @@
+<view class='content'>
+  <view class='category' wx:if="{{classic.length}}">
+    <swiper indicator-dots="{{indicatorDots}}" class="level-top">
+      <block wx:for="{{classic}}" wx:for-item="swiper" wx:key="*this">
+        <swiper-item class="swiper-item">
+          <view class="top" wx:for="{{swiper}}" data-item="{{item}}" wx:key="id" bindtap="bindClassic">
+            <image src="{{item.image || './images/icon-default-image.png'}}" class="img"></image>
+            <text class="top-name">{{item.name}}</text>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="sub-classic">
+      <view class="title" hidden="{{!curentSub.subTitle}}"><text class="title-main">{{curentSub.subTitle}}</text></view>
+      <view class="sub-main">
+        <view class="sub-item" wx:for="{{subCate}}"  data-item="{{item}}" wx:key="id" bindtap="bindClassic">
+          <image src="{{item.image || './images/icon-default-image.png'}}" class="img"></image>
+          <text class="sub-name">{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="no_data" wx:if="{{!classic.length}}">
+    <image class="no_data_img" src="./images/category-no-data.png"></image>
+    <text class="no_data_text">暂无分类</text>
+  </view>
+</view>

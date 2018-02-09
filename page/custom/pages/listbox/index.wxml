@@ -1,0 +1,3 @@
+<view class="main">
+  <listbox list-data="{{listdata}}" type="horizontal"></listbox>
+</view>

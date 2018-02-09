@@ -1,0 +1,21 @@
+<view class="shop-list shop-list--{{type}}">
+  <div class="shop-list-item" wx:for="{{listData}}" wx:key="id" bindtap="onJump" data-url="{{item.url}}">
+    <view class="shop-list-item__image" style="background-image: url('{{item.defaulT_IMAGE}}')"></view>
+    <view class="shop-list-item__info">
+      <view style="flex: 1;">
+        <view class="shop-list-item__name">{{item.name}}</view>
+      </view>
+      <view class="shop-list-item__tag">
+        <text class="slit-tag" wx:for="{{item.goods_tags}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+      </view>
+      <view class="shop-list-item__price-wrap">
+        <text class="shop-list-item__price">￥{{item.defaulT_PRICE}}</text>
+        <text class="shop-list-item__price shop-list-item__price--origin">￥{{item.originaL_PRICE}}</text>
+      </view>
+      <view class="shop-list-item__statistics">
+        <text class="shop-list-item__views">人气 {{item.goodsExtend.views}}</text>
+        <text class="shop-list-item__sales">已售 {{item.goodsExtend.sales}}</text>
+      </view>
+    </view>
+  </div>
+</view>

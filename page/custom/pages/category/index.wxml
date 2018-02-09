@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="gd-panel">
+    <category list="{{list}}"></category>
+  </view>
+</view>

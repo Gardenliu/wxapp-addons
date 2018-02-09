@@ -1,0 +1,3 @@
+<view class="main">
+  <search value="请输入数据" bindchange="searchAction"></search>
+</view>

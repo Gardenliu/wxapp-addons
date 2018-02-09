@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "listbox 列表",
+  "usingComponents": {
+    "listbox": "/vendor/components/listbox/index"
+  }
+}

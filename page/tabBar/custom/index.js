@@ -5,7 +5,7 @@ Page({
         id: 'view',
         name: '视图容器',
         open: false,
-        pages: ['badge', 'cell', 'capsule','grid','steps']
+        pages: ['badge', 'cell', 'capsule','grid','steps','category','listbox','search']
       }, {
         id: 'content',
         name: '基础内容',
